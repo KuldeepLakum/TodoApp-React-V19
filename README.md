@@ -51,7 +51,7 @@
 
 > 📷 Add a screenshot of your app here.  
 > Example:
-> ![Todo App Preview](./screenshot.png)
+> ![Todo App Preview](https://github.com/user-attachments/assets/7abe6e6d-524e-42a9-9890-c273caf35472)
 
 ---
 
