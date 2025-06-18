@@ -57,3 +57,96 @@
 
 ## 🗂️ Project Structure
 
+src/
+├── components/
+│ ├── Todo.jsx
+│ ├── TodoForm.jsx
+│ ├── TodoList.jsx
+│ ├── TodoLocalStorage.jsx
+│ └── Todo.css
+├── App.jsx
+├── App.css
+└── main.jsx
+
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+- Node.js & npm installed
+- Basic understanding of React
+
+### 🔧 Setup
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/your-username/react-todo-app.git
+cd react-todo-app
+npm install
+npm run dev
+http://localhost:5173
+
+🚀 Future Improvements
+✏️ Edit task functionality
+
+🔍 Filter tasks (All / Active / Completed)
+
+🌗 Dark / Light mode toggle
+
+📱 PWA (Installable version for mobile)
+
+🧲 Drag-and-drop reordering
+
+🙋‍♂️ About Me
+Hey there! I’m Kuldeep Lakum 👋
+
+🎓 BCA Graduate | Frontend Developer
+
+🔍 Actively looking for opportunities
+
+🌐 [Portfolio Coming Soon]
+
+📫 LinkedIn
+
+💬 I’m passionate about building interactive web apps that are useful, fast, and beautiful.
+
+📄 License
+This project is licensed under the MIT License.
+Feel free to use, fork, or contribute to it.
+
+⭐ Support & Feedback
+If you find this project helpful:
+
+💖 Give it a ⭐ star
+🔁 Share it with friends
+💬 Feedback, suggestions, and pull requests are welcome!
+
+“Code is like humor. When you have to explain it, it’s bad.” — Cory House
+
+markdown
+Copy
+Edit
+
+---
+
+### ✅ What to do next:
+- Replace:
+  - `your-username` → Your GitHub username
+  - `./screenshot.png` → Add or update a screenshot of your app
+  - Update LinkedIn or portfolio links
+- Save it as `README.md` in the root of your project
+- Push it to GitHub with your next commit
+
+Let me know if you want a **logo/banner**, **animated GIF preview**, or **badges for GitHub stats and profile** added too!
+
+
+
+
+
+
+
+
+
+
+
