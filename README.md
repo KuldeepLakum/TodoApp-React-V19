@@ -1,12 +1,59 @@
-# React + Vite
+<h1 align="center">📝 React Todo App</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  ⚡ A modern, fast, and responsive Todo App built with <strong>React</strong>, styled with ❤️ using <strong>CSS</strong>, and powered by <strong>Local Storage</strong>.  
+  Keep your productivity on track — stylishly.
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="https://img.shields.io/badge/React-Fast%20&%20Reliable-blue?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/Mobile-Friendly-%F0%9F%93%B1-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Open%20Source-%E2%9C%94-lightgrey?style=for-the-badge" />
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌟 Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ **React Todo App** is a clean and user-friendly application that allows you to:
+- ➕ Add todos
+- ✅ Mark them as complete
+- ❌ Delete them
+- 🕒 View real-time date and time
+- 💾 Automatically save tasks using Local Storage — even after refreshing!
+
+---
+
+## 🎯 Features
+
+- 📥 **Add, Check, and Delete** tasks
+- 💾 **Persistent Data** using browser's localStorage
+- 🕐 **Live Date & Time**
+- 🌈 **Responsive & Stylish UI**
+- ❌ Prevents duplicate tasks
+- ⚛️ Built using **Functional Components + Hooks**
+
+---
+
+## 🧰 Tech Stack
+
+| Tech        | Purpose                        |
+|-------------|--------------------------------|
+| ⚛️ React     | Frontend UI Framework          |
+| 🎨 CSS       | Styling & Responsive Design    |
+| 🧠 JavaScript | App Logic & Functionality      |
+| 💾 localStorage | Persistent Task Storage     |
+| ⚡ Vite       | Fast Dev Build Tool            |
+
+---
+
+## 📸 Preview
+
+> 📷 Add a screenshot of your app here.  
+> Example:
+> ![Todo App Preview](./screenshot.png)
+
+---
+
+## 🗂️ Project Structure
+
