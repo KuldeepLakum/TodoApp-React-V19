@@ -87,6 +87,8 @@ src/
 - Node.js & npm installed
 - Basic understanding of React
 
+---
+
 ### 🔧 Setup
 
 
@@ -100,6 +102,8 @@ npm install
 npm run dev
 
 http://localhost:5173
+
+---
 
 
 
@@ -115,7 +119,7 @@ http://localhost:5173
 
 🧲 Drag-and-drop reordering
 
-
+---
 
 🙋‍♂️ About Me
 Hey there! I’m Kuldeep Lakum 👋
@@ -128,11 +132,16 @@ Hey there! I’m Kuldeep Lakum 👋
 
 💬 I’m passionate about building interactive web apps that are useful, fast, and beautiful.
 
+---
+
 📄 License
 This project is licensed under the MIT License.
 Feel free to use, fork, or contribute to it.
 
+---
+
 ⭐ Support & Feedback
+
 If you find this project helpful:
 
 💖 Give it a ⭐ star
