@@ -1,0 +1,33 @@
+/* Import custom Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Reset and base styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* Custom color variables */
+:root {
+  --background: #101114;
+  --primary-color: #1c1d20;
+  --secondry-color: #4a4d57;
+  --accent-color: #00ffc4;
+  --text-color: #f9f9f9;
+}
+
+/* Apply font and text color globally */
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 16pt;
+  color: var(--text-color);
+}
+
+/* Set full-height background for body */
+body {
+  min-height: 100vh;
+  padding: 1rem;
+  background-color: var(--background);
+}

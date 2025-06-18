@@ -1,0 +1,217 @@
+
+/* Container for the entire Todo app */
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Main title styles */
+h1 {
+  margin-top: 100px;
+  margin-bottom: -20px;
+  font-size: 3rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--accent-color);
+}
+
+/* Time display style */
+.todo-container h3 {
+  margin: 20px 0;
+}
+
+/* Wrapper to structure the form, list, and clear button */
+.wrapper {
+  width: 700px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* Form container */
+.form {
+  width: 700px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Input field styles */
+.form input {
+  box-sizing: border-box;
+  padding: 12px 20px;
+  width: 100%;
+  background: none;
+  border: 2px solid var(--secondry-color);
+  border-radius: 1000px;
+  font: inherit;
+  color: var(--text-color);
+  caret-color: var(--accent-color);
+}
+
+/* Remove default outline on input focus */
+.form input:focus {
+  outline: none;
+}
+
+/* Makes the form button sit on top right inside input */
+form {
+  position: relative;
+}
+
+/* Submit button styling inside form */
+.form form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--accent-color);
+  height: 100%;
+  padding: 0 30px;
+  border: none;
+  border-radius: 1000px;
+  font: inherit;
+  font-weight: 600;
+  color: var(--background);
+  cursor: pointer;
+}
+
+/* List container with scroll enabled */
+.todo-list {
+  text-decoration: none;
+  list-style: none;
+  max-height: 55vh;
+  overflow-y: auto;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* Each todo item */
+.todo {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  background-color: var(--primary-color);
+  margin-bottom: 10px;
+  border-radius: 1.6rem;
+  user-select: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Delete button styles */
+.delet-btn {
+  color: #fff;
+  background: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+/* Icon animation for delete */
+.delet-icon {
+  transition: 200ms ease-in-out;
+}
+
+/* Hover effect for delete icon */
+.delet-icon:hover {
+  color: #ff0000;
+}
+
+/* Unchecked task check button */
+.check-btn {
+  background: transparent;
+  color: #fff;
+  font-size: 20px;
+  border: 2px solid var(--accent-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  transition: 200ms ease-in-out;
+  cursor: pointer;
+}
+
+/* Checked task button */
+.checked-btn {
+  background: var(--accent-color);
+  color: #000;
+  font-size: 20px;
+  border: 2px solid var(--accent-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  transition: 200ms ease-in-out;
+  cursor: pointer;
+}
+
+/* Hover effect for unchecked check button */
+.check-btn:hover {
+  border: 2px solid red;
+  color: red;
+}
+
+/* Section for clear all button */
+.clear-section {
+  text-align: center;
+}
+
+/* Clear All button styling */
+.clear-section .clear-btn {
+  padding: 10px 20px;
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* Style for completed tasks */
+.checklist {
+  text-decoration: line-through;
+  padding: 0.7rem 1rem;
+  padding-right: 0;
+  flex-grow: 1;
+  transition: 200ms ease-in-out;
+}
+
+/* Style for uncompleted tasks */
+.not-cheklist {
+  text-decoration: none;
+  padding: 0.7rem 1rem;
+  padding-right: 0;
+  flex-grow: 1;
+  transition: 200ms ease-in-out;
+}
+
+/* Responsive styles for small screens */
+@media(max-width: 500px) {
+  html {
+    font-size: 12pt;
+  }
+
+  .todo-container h1 {
+    font-size: 50px;
+  }
+
+  .todo-container h3 {
+    font-size: 19px;
+  }
+
+  .form form button {
+    position: unset;
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    height: auto;
+  }
+}
