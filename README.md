@@ -7,7 +7,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-Fast%20&%20Reliable-blue?style=for-the-badge&logo=react" />
-  <img src="https://img.shields.io/badge/Mobile-Friendly-%F0%9F%93%B1-green?style=for-the-badge" />
+ <img src="https://img.shields.io/badge/Mobile--Friendly-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Open%20Source-%E2%9C%94-lightgrey?style=for-the-badge" />
 </p>
 
